@@ -1,3 +1,11 @@
+:root {
+    --primary-red: #FC4747;
+    --primary-dark: #10141e;
+    --primary-light-blue: rgba(90, 105, 143);
+    --primary-dark-blue: #161d27;
+    --primary-white: #ffffff;
+}
+
 
 *,
 *::before,
@@ -8,6 +16,11 @@
 * {
     margin: 0;
     padding: 0;
+    
+}
+
+body {
+    
 }
 
 .nav-container {

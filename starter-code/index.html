@@ -13,47 +13,96 @@
 <body>
   <header>
     <nav class="header-container">
-      <ul class="nav-container">
-        <img class="nav-container logo" src="./assets/logo.svg" />
+      <div>
+        <ul class="nav-container">
 
-        <li>
-          <a href="index.html">
-            <img class="navbar-container home" src="./assets/icon-nav-home.svg" />
-          </a>
+          <img class="nav-container logo" src="./assets/logo.svg" />
+          <div class="navbar-container">
+            <li>
+              <a href="index.html">
+                <img class="navbar-container home" src="./assets/icon-nav-home.svg" />
+              </a>
 
-        </li>
-        <li>
-          <a href="movies.html">
-            <img class="navbar-container movies" src="./assets/icon-nav-movies.svg" />
-          </a>
+            </li>
+            <li>
+              <a href="movies.html">
+                <img class="navbar-container movies" src="./assets/icon-nav-movies.svg" />
+              </a>
 
-        </li>
-        <li>
-          <a href="tv-series.html">
-            <img class="navbar-container tv-series" src="./assets/icon-nav-tv-series.svg" />
-          </a>
+            </li>
+            <li>
+              <a href="tv-series.html">
+                <img class="navbar-container tv-series" src="./assets/icon-nav-tv-series.svg" />
+              </a>
 
-        </li>
-        <li>
-          <a href="bookmarked.html">
-            <img class="navbar-container bookmark" src="./assets/icon-nav-bookmark.svg" />
-          </a>
+            </li>
+            <li>
+              <a href="bookmarked.html">
+                <img class="navbar-container bookmark" src="./assets/icon-nav-bookmark.svg" />
+              </a>
 
-        </li>
-
-        <img class="nav-container avatar" src="./assets/image-avatar.png" />
-      </ul>
+            </li>
+          </div>
+          <img class="nav-container avatar" src="./assets/image-avatar.png" />
+        </ul>
+      </div>
     </nav>
   </header>
-  Search for movies or TV series
+  <main>
+    <div main-contain>
 
-  Trending
+    </div>
+    <section class="input-section">
+      <form>
+        <div class="input-container">
+          <input type="text" placeholder="Search for movies or TV series">
+        </div>
 
-  <!-- Display trending shows -->
+      </form>
+    </section>
+    <section class="trending-container">
+      <h1>
+        Trending
+      </h1>
+      <div class="movie-card">
+        <div class="section__header-container">
+          <header>
+            <p>
+              2019
+            </p>
+            <div class="dot"></div>
+            <p>
+              Movie
+            </p>
+            <div class="dot"></div>
+            <p>
+              PG
+            </p>
+          </header>
+          <div class="header-title">
+            <h3>
+              Title title
+            </h3>
+          </div>
+        </div>
 
-  Recommended for you
+        <div class="bookmark-marker"></div>
+      </div>
 
-  <!-- Display recommended shows -->
+      <!-- Display trending shows -->
+    </section>
+
+    <section class="recommended-container">
+      <h1>
+        Recommended for you
+      </h1>
+
+    </section>
+
+
+    <!-- Display recommended shows -->
+  </main>
+
 
 </body>
 

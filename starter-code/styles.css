@@ -1,9 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;500&display=swap');
+
 :root {
+    /*colors*/
     --primary-red: #FC4747;
     --primary-dark: #10141e;
     --primary-light-blue: rgba(90, 105, 143);
     --primary-dark-blue: #161d27;
     --primary-white: #ffffff;
+
+    /*font-sizes*/
+    --heading-fs-l: 32px;
+    --heading-fs-m: 24px;
+    --heading-fs-s: 18px;
+    --body-fs-m: 15px;
+    --body-fs-s: 13px;
 }
 
 
@@ -20,12 +30,24 @@
 }
 
 body {
+    color: var(--primary-white);
+    font-family: 'Outfit', sans-serif;
     
+}
+
+.header-container {
+    padding: 1rem;
+    background-color: var(--primary-dark-blue);
 }
 
 .nav-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between;   
+}
+
+.navbar-container {
+    display: flex;
+    gap: 1.2rem;
 }
 
 .avatar {
@@ -37,3 +59,88 @@ li {
     list-style: none;
 }
 
+main {
+    background-color: var(--primary-dark);
+    padding: 0 1rem;
+}
+
+.input-section {
+    padding: 1.5rem 0;
+}
+
+input {
+    background-image: url(./assets/icon-search.svg);
+    background-size: 1.75rem;
+    background-position-y: center;
+    background-color: var(--primary-dark);
+    background-repeat: no-repeat;
+    border: none;
+    text-indent: 2.5rem;    
+    height: 1.7rem;
+    color: var(--primary-white);
+    width: 17rem;
+}
+
+input::placeholder {    
+    line-height: 1.7rem;
+    color: var(--primary-white);
+    font-size: 1rem;
+    font-weight: 300;
+    opacity: 0.5;  
+}
+
+
+section > h1 {
+    font-weight: 300;
+    font-size: 1.25rem;
+    margin: 1rem 0;
+}
+
+.movie-card {
+    background-image: url('./assets/thumbnails/autosport-the-series/regular/small.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 8.75rem;
+    width: 15rem;
+    border-radius: 8px;
+    display: flex;
+    padding: 8px 8px 16px 16px;
+}
+
+.section__header-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.movie-card header {
+    display: flex;    
+    align-items: center;
+    gap: 0.5rem;
+    font-weight: 300;
+}
+
+.dot {
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    background-color: var(--primary-white);
+    opacity: 0.5;
+}
+
+.header-title h3 {
+    font-size: var(--body-fs-m);
+    font-weight: 500;
+}
+
+.bookmark-marker {
+    background-image: url(./assets/icon-bookmark-empty.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: var(--primary-dark);
+    opacity: 0.5;
+    border-radius: 50%;
+    margin-left: auto;
+    height: 2rem;
+    width: 2rem;
+}

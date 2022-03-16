@@ -1,14 +1,10 @@
 # Frontend Mentor - Entertainment web app
 
-![Design preview for the Entertainment web app coding challenge](./preview.jpg)
+
 
 ## Welcome! 👋
 
-Thanks for purchasing this premium Frontend Mentor coding challenge.
 
-[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects. These premium challenges are perfect portfolio pieces, so please feel free to use what you create in your portfolio to show others.
-
-**To do this challenge, you need a strong understanding of HTML, CSS, and JavaScript.**
 
 ## The challenge
 
@@ -45,9 +41,9 @@ Your users should be able to:
   - This page should display all bookmarked shows from both categories
   - Any search input should search through all bookmarked shows
 
-Want some support on the challenge? [Join our Slack community](https://www.frontendmentor.io/slack) and ask questions in the **#help** channel.
 
-## Where to find everything
+
+<!-- ## Where to find everything
 
 Your task is to build out the project to the design file provided. We provide both Sketch and Figma versions of the design, so you can choose which tool you prefer to use. You can download the design file on the platform. **Please be sure not to share them with anyone else.** The design download comes with a `README.md` file as well to help you get set up.
 
@@ -109,4 +105,4 @@ The more specific you are with your questions the more likely it is that another
 
 We love receiving feedback! We're always looking to improve our challenges and our platform. So if you have anything you'd like to mention, please email hi[at]frontendmentor[dot]io.
 
-**Have fun building!** 🚀
+**Have fun building!** 🚀 -->

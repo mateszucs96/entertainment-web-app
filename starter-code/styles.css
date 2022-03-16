@@ -96,12 +96,45 @@ section > h1 {
     margin: 1rem 0;
 }
 
-.movie-card {
+.trending-container {
+    
+}
+
+.movie-card__trending {
     background-image: url('./assets/thumbnails/autosport-the-series/regular/small.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 8.75rem;
-    width: 15rem;
+    min-width: 15rem;
+    border-radius: 8px;
+    display: flex;
+    padding: 8px 8px 16px 16px;    
+}
+
+.movie-card__trending:nth-child(2) {
+    background-image: url('./assets/thumbnails/bottom-gear/trending/small.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 8.75rem;
+    min-width: 15rem;
+    border-radius: 8px;
+    display: flex;
+    padding: 8px 8px 16px 16px;
+}
+
+.trending-container__cards {
+    display: flex;
+    overflow: hidden;
+    gap: 0.9rem;
+    margin-right: -1rem;
+}
+
+.movie-card__recommended {
+    background-image: url('./assets/thumbnails/the-great-lands/regular/medium.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 6.875rem;
+    width: 10.25rem;
     border-radius: 8px;
     display: flex;
     padding: 8px 8px 16px 16px;
@@ -113,11 +146,25 @@ section > h1 {
     justify-content: flex-end;
 }
 
-.movie-card header {
+.recommended__header-container header {
     display: flex;    
     align-items: center;
     gap: 0.5rem;
     font-weight: 300;
+    font-size: var(--body-fs-s)
+}
+
+.recommended__header-container h3 {
+    font-size: var(--body-fs-m);
+    font-weight: 500;
+}
+
+.movie-card__trending header {
+    display: flex;    
+    align-items: center;
+    
+    font-weight: 300;
+    font-size: var(--body-fs-s)
 }
 
 .dot {
@@ -143,4 +190,10 @@ section > h1 {
     margin-left: auto;
     height: 2rem;
     width: 2rem;
+}
+
+.recommended__cards-container {
+    display: flex;
+    flex-wrap:wrap;
+    gap: 0.9rem;
 }
